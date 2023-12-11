@@ -1,5 +1,7 @@
 # NeuralNetInCPP
 
+The code is stolen from David Miller.
+
 ## Training a Neural Network
 
 - Given input data and known outputs
