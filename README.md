@@ -61,3 +61,12 @@ double Neuron::transferFunctionDerivative(double x)
     return 1.0 - x * x;
 }
 ~~~
+
+## Neural Net Structure
+Common Structure: Fully Connected
+~~~
+    for (unsigned c = 0; c < numOutputs; ++c) {
+        m_outputWeights.push_back(Connection());
+        m_outputWeights.back().weight = randomWeight();
+    }
+~~~
